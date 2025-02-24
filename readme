@@ -1,0 +1,35 @@
+Suivi des Heures de Travail
+
+Application web pour gérer et suivre les heures de travail des employés.
+
+ Table des Matières
+
+1. [Présentation](#présentation)
+2. [Fonctionnalité](#fonctionnalités)
+3. [Utilisation](#utilisation)
+4. [Déploiement](#déploiement)
+
+ Présentation
+
+Cette application est conçue pour aider les entreprises à gérer efficacement les horaires de travail de leurs employés. Elle permet de suivre les heures d'arrivée, de début de pause, de fin de pause et de départ, facilitant ainsi la gestion du temps de travail et la planification des ressources humaines.
+
+ Fonctionnalités
+
+- Enregistrement des heures : Les employés peuvent enregistrer leurs heures d'arrivée, de début de pause, de fin de pause et de départ.
+- Suivi en temps réel : Les gestionnaires peuvent visualiser les heures enregistrées en temps réel pour chaque employé.
+- Rapports et statistiques : Génération de rapports détaillés pour analyser les tendances et optimiser la gestion du temps.
+- Notifications : Envoi automatique de notifications pour les retards ou les absences non justifiées.
+- Sécurité : Authentification sécurisée pour protéger les données sensibles.
+
+ Utilisation
+
+1. Accueil et connexion : Les employés se connectent avec leur identifiant et mot de passe fournis par l'administrateur.
+2. Enregistrement des heures : Utiliser l'interface utilisateur pour enregistrer les heures de travail.
+3. Consultation des rapports : Les gestionnaires peuvent accéder aux rapports pour analyser les données.
+4. Aide : Les collaborateur peuvent interagir en cas de préoccupation
+
+
+ Déploiement
+
+1. Prérequis : Html,Css et Javascript + Google sheets comme base de données
+2. lancer avec le live server

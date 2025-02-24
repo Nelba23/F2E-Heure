@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F2E-Heure</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/acceuil.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="/acceuil.html">
+        <img src="/images/logo.jpg" id="image-logo" alt="Logo de F2E-Heure" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="/acceuil.html">Accueil</a></li>
+          <li><a href="/aide.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="admin-button-container">
+        <a href="/admin.html" class="admin-button">
+          <i class="fas fa-user-shield"></i>
+        </a>
+      </div>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="connexion" class="connexion">
+      <div class="container">
+        <div class="login">
+          <h1>Connexion</h1>
+          <p>Connectez-vous pour pouvoir pointer.</p>
+          <form class="login-con" id="loginform">
+            <!-- Champ pour username -->
+            <div class="form-control">                  <input
+                type="text"
+                id="username"
+                placeholder="Nom collaborateur"
+                required
+                aria-label="Nom de collaborateur"
+              />
+            </div>
+            <!-- Champ pour l'email -->
+            <div class="form-control">
+              <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                required
+                aria-label="Email"
+              />
+            </div>
+            <!-- Champ pour le mot de passe -->
+            <div class="form-control">
+              <div class="password-container">
+                <input
+                  type="password"
+                  id="password"
+                  required
+                  aria-label="Mot de passe"
+                  placeholder="Entrez mot de passe"
+                />
+                <button
+                  type="button"
+                  id="toggle-password"
+                  aria-label="Afficher/Masquer le mot de passe"
+                >
+                  👁️
+                </button>
+              </div>
+            </div>
+            <!-- Bouton de connexion -->
+            <button class="login-btn" type="submit">Connexion</button>
+
+            <div id="loading-indicator" style="display: none">
+              Chargement...
+            </div>
+            <!-- Message d'erreur -->
+            <div id="error-message"></div>
+          </form>
+        </div>
+
+        <!-- Section pour l'image -->
+        <div class="picture-panel"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 F2E-Heure. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Script pour gérer la connexion -->
+    <script src="/assets/js/acceuil.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cache.js"></script>
+  </body>
+</html>
